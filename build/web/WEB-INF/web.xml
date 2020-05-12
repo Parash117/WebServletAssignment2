@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>Problem1</servlet-name>
+        <servlet-class>com.assig.Problem1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem1</servlet-name>
+        <url-pattern>/pb1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Problem2</servlet-name>
+        <servlet-class>com.assig.Problem2</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem2</servlet-name>
+        <url-pattern>/pb2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Problem3</servlet-name>
+        <servlet-class>com.assig.Problem3</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem3</servlet-name>
+        <url-pattern>/pb3</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Problem4</servlet-name>
+        <servlet-class>com.assig.Problem4</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem4</servlet-name>
+        <url-pattern>/pb4</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Problem5</servlet-name>
+        <servlet-class>com.assig.Problem5</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem5</servlet-name>
+        <url-pattern>/pb5</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Problem6</servlet-name>
+        <servlet-class>com.assig.Problem6</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem6</servlet-name>
+        <url-pattern>/pb6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Problem7</servlet-name>
+        <servlet-class>com.assig.Problem7</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Problem7</servlet-name>
+        <url-pattern>/pb7</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>setSession</servlet-name>
+        <servlet-class>com.assig.SetSession</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>setSession</servlet-name>
+        <url-pattern>/setSession</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>buyBooks</servlet-name>
+        <servlet-class>com.assig.BuyBooks</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>buyBooks</servlet-name>
+        <url-pattern>/buybook</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>resetSession</servlet-name>
+        <servlet-class>com.assig.ResetSession</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>resetSession</servlet-name>
+        <url-pattern>/resetSession</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
